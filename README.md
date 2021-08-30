@@ -7,6 +7,8 @@
 </p>
 <br />
 
+[Klik di sini](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md) untuk memulai belajar praktikum
+
 ## Tim Asisten Pengajar:
 - Michael Raditya Krisnadhi (IF 2020) | [GitHub](https://github.com/michaelrk02/) | [LinkedIn](https://www.linkedin.com/in/michaelrk02/) |
 - Christopher Digno M.D. (IF 2020) | [GitHub](https://github.com/stackofsugar) | [LinkedIn](https://www.linkedin.com/in/christopherdigno/) |
@@ -18,12 +20,6 @@
 ## Berkontribusi
 
 Cek [pedoman kontribusi](CONTRIBUTING.md) kami.
-
-## Topik
-
-- [Week 2 - Structured Programming](Week2-StructuredProgramming/)
-
-- [Week 3 - Program Control](#)
 
 
 >M.R. & C.D.
