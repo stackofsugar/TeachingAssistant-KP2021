@@ -2,13 +2,31 @@
 
 Salah satu hal yang paling fundamental dalam pemrograman adalah adanya operasi pemilihan dan perulangan.
 
-**Pemilihan** (atau pengambilan keputusan/decision making) adalah tindakan yang akan dilakukan oleh program apabila terdapat beberapa pilihan atau kondisi yang akan memproduksi instruksi yang berbeda.
+**Pemilihan** (atau pengambilan keputusan/decision making) adalah tindakan yang akan dilakukan oleh program apabila dihadapkan pada beberapa pilihan atau kondisi yang akan memproduksi instruksi yang berbeda.
 
 Kemudian **perulangan** adalah kemampuan program untuk **melakukan sekumpulan instruksi yang sama berulang kali** selama **kondisi tertentu memenuhi**. Apabila kondisi perulangan tersebut **selalu memenuhi**, maka yang dikhawatirkan adalah terjadinya **infinite loop** atau program akan berjalan selamanya sehingga berpotensi crash/hang. Oleh karena itu, perhatikan betul dalam menggunakan operasi perulangan.
 
 Operasi pemilihan yang akan digunakan di sini adalah **if - else**, sedangkan operasi perulangan yang digunakan adalah **while**.
 
 ## Pemilihan: if - else
+
+Format penggunannya yaitu:
+```c
+if (/* kondisi */) {
+    /* perintah... */
+}
+/* opsional: */
+else if (/* kondisi lain */) {
+    /* perintah... */
+}
+else if (/* kondisi lainnya lagi) {
+    /* perintah... */
+}
+/* else if ... */
+else {
+    /* perintah... */
+}
+```
 
 Contoh penggunaan if-else dalam program C adalah sebagai berikut:
 
@@ -73,6 +91,13 @@ if (nilaiSaya >= 50) {
 
 ## Perulangan: while
 
+Format penggunaannya yaitu:
+```c
+while (/* kondisi */) {
+    /* perintah... */
+}
+```
+
 Contoh penggunaan while dalam program C adalah sebagai berikut:
 
 Potongan kode berikut menampilkan "Quack!" sebanyak 10 kali di layar console
@@ -105,7 +130,7 @@ while (i < 102) {
 Analisa kode di atas:
 
 1. Variabel `i` dideklarasikan kemudian diisi dengan nilai awal pola yaitu 2
-2. Selagi `i` bernilai kurang dari atau sama dengan 100, maka jalankan perintah `printf("%d ", i)` kemudian `i = i + 2`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` ditampilkan di layar kemudian ditambah dengan 2 terus menerus sampai keluar dari perulangan.
+2. Selagi `i` bernilai kurang dari 102, maka jalankan perintah `printf("%d ", i)` kemudian `i = i + 2`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` ditampilkan di layar kemudian ditambah dengan 2 terus menerus sampai keluar dari perulangan.
 
 **Q:** Bagaimana bisa keluar dari perulangan?
 
