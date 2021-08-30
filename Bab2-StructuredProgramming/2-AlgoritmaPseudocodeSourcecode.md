@@ -23,7 +23,7 @@ Dalam menyusun suatu program, kita pasti akan berpikir terlebih dahulu tentang a
 
 ## Pseudocode
 
-Cara lain untuk **merepresentasikan suatu algoritma** adalah dalam bentuk **pseudocode**. Pseudocode pada dasarnya berupakan potongan kode yang menggunakan sintaks (aturan penulisan) yang **tidak formal** dengan tujuan memudahkan pembaca untuk memahami algoritmanya. Tidak ada batasan khusus dalam pembuatan pseudocode, asalkan mudah dimengerti dan dipahami saja oleh orang lain sehingga dapat mengetahui algoritma yang kita buat tanpa harus meraba-raba source codenya.
+Cara lain untuk **merepresentasikan suatu algoritma** adalah dalam bentuk **pseudocode**. Pseudocode pada dasarnya merupakan potongan kode yang menggunakan sintaks (aturan penulisan) yang **tidak formal** dengan tujuan memudahkan pembaca untuk memahami algoritmanya. Tidak ada batasan khusus dalam pembuatan pseudocode, asalkan mudah dimengerti dan dipahami saja oleh orang lain sehingga dapat mengetahui algoritma yang kita buat tanpa harus meraba-raba source codenya.
 
 Berikut merupakan contoh pseudocode program berdasarkan **Algoritma 1**
 ```
@@ -45,7 +45,7 @@ ELSE IF (nilaiMahasiswa < 75):
 
 ## Source Code
 
-Yang terakhir adalah source code. **Source code** merupakan wujud implementasi dari suatu algoritma atau pseudocode dalam **sintaks yang formal** sehingga instruksi-instruksinya dapat dimengerti dan dijalankan oleh komputer. Source code dapat ditulis menggunakan bahasa pemrograman apapun (C/C++/Java/Python) sehingga dapat dicompile dan/atau dijalankan oleh komputer.
+Yang terakhir adalah source code. **Source code** merupakan wujud implementasi dari suatu algoritma atau pseudocode dalam **sintaks yang formal** sehingga instruksi-instruksinya dapat dimengerti dan dijalankan oleh komputer. Source code dapat ditulis menggunakan bahasa pemrograman apapun (C/C++/Java/Python/dll) sehingga dapat dicompile dan/atau dijalankan oleh komputer.
 
 Berikut merupakan contoh source code program berdasarkan **Algoritma/Pseudocode 1** dalam bahasa C
 ```c
