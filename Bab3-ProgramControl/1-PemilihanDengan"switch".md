@@ -1,3 +1,4 @@
+[<< Materi Sebelumnya (Silabus) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md)
 # 3.1 - Pemilihan dengan Switch
 
 Switch case sangat berguna ketika ingin melakukan perbandingan untuk banyak kasus
@@ -106,3 +107,4 @@ Dengan menggunakan Case Ranges penulisan `code` menjadi lebih cepat dan mudah di
     }
     ```
 
+[>> Materi Berikutnya (Perulangan menggunakan "for") >>](#) 
