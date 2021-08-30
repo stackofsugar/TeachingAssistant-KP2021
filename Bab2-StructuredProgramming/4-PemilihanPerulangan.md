@@ -30,14 +30,14 @@ else {
 
 Contoh penggunaan if-else dalam program C adalah sebagai berikut:
 
-Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki value 100
+Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` **memiliki value 100**
 ```c
 if (nilaiSaya == 100) {
     printf("Bagus!\n");
 }
 ```
 
-Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki value lebih dari atau sama dengan 85, atau "Coba lagi!" jika tidak
+Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki value **lebih dari atau sama dengan 85**, atau "Coba lagi!" jika tidak
 ```c
 if (nilaiSaya >= 85) {
     printf("Bagus!\n");
@@ -46,7 +46,7 @@ if (nilaiSaya >= 85) {
 }
 ```
 
-Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki value lebih dari atau sama dengan 85, "Cukup" ketika memiliki `nilaiSaya` kurang dari 85 tetapi lebih besar dari atau sama dengan 50, "Coba lagi" jika tidak memenuhi semuanya
+Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki value **lebih dari atau sama dengan 85**, "Cukup" ketika `nilaiSaya` **kurang dari 85** tetapi **lebih besar dari atau sama dengan 50**, "Coba lagi" jika tidak memenuhi semuanya
 ```c
 if (nilaiSaya >= 85) {
     printf("Bagus!\n");
@@ -57,7 +57,7 @@ if (nilaiSaya >= 85) {
 }
 ```
 
-Potongan kode berikut menampilkan "Lulus" di layar ketika `nilaiSaya` memiliki value lebih dari atau sama dengan 50 dan "Tidak lulus" apabila memiliki value kurang dari 50
+Potongan kode berikut menampilkan "Lulus" di layar ketika `nilaiSaya` memiliki value **lebih dari atau sama dengan 50** dan "Tidak lulus" apabila memiliki value **kurang dari 50**
 ```c
 if (nilaiSaya >= 50) {
     printf("Lulus\n");
