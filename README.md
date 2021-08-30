@@ -3,11 +3,12 @@
         <img src="https://www.teahub.io/photos/full/101-1018669_photo-wallpaper-screen-data-blur-screen-source-does.jpg" alt="Blurry code" width="266.4" height="170">
     </a>
     <h1 align="center">Praktikum Konsep Pemrograman - S1 Informatika UNS</h1>
-    <h3 align="center">Tahun Ajaran 2021/2022 Semester Ganjil</h3>
+    <h4 align="center">Tahun Ajaran 2021/2022 Semester Ganjil</h4>
 </p>
-<br />
 
-[Klik di sini](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md) untuk memulai belajar praktikum
+<h3 align="center">
+    >> <a href="https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md">Klik di sini untuk memulai belajar praktikum</a> <<
+</h3>
 
 ## Tim Asisten Pengajar:
 - Michael Raditya Krisnadhi (IF 2020) | [GitHub](https://github.com/michaelrk02/) | [LinkedIn](https://www.linkedin.com/in/michaelrk02/) |
