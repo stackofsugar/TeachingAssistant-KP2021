@@ -1,5 +1,5 @@
 
-<h1 align="center">Week 2 - Structured Programming</h1>
+<h1 align="center">Bab 2 - Structured Programming</h1>
 <h4 align="center">Laman ini sedang dalam pengembangan. Gunakan dengan hati-hati.</h4>
 
 <p align="center"> 
