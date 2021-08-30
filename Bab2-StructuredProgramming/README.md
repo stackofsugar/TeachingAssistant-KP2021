@@ -1,4 +1,5 @@
 
+
 <h1 align="center">Bab 2 - Structured Programming</h1>
 <h4 align="center">Laman ini sedang dalam pengembangan. Gunakan dengan hati-hati.</h4>
 
@@ -10,10 +11,11 @@
 <br />
 
 ## Subtopik yang Akan Dibahas
-1. [Program C Pertama](#program-c-pertama)
-2. [Variabel dan Tipe Data C](#variabel-dan-tipe-data-c)
+1. [Pengantar C](#pengantar-c)
+2. [Algoritma, Pseudocode, dan Source Code](#algoritma,-pseudocode,-dan-source-code)
 
-## Program C Pertama
+## Pengantar C
+### Program Sederhana
 Seperti yang sudah ditunjukkan pada perkuliahan teori pertemuan pertama, program C pertama yang teman-teman kenal biasanya dikenal sebagai program *hello world* yang terlihat seperti di bawah ini.
 ```c
 /* Menggunakan library stdio.h */
@@ -25,7 +27,7 @@ int main() {
     return 0;
 }
 ```
-### Memahami kode
+#### Memahami kode
 Mari kita pisahkan dan pahami masing-masing baris dari kode tersebut, dimulai dari baris paling atas.
 ```c 
 #include <stdio.h>
@@ -52,7 +54,7 @@ Terakhir, kata kunci `return` digunakan untuk menghentikan sebuah fungsi (dalam 
 ```
 Terakhir, 2 baris di atas merupakan baris komentar yang tidak akan digunakan pada program. Komentar dapat menjadikan kode kalian lebih mudah dipahami, khususnya untuk pemrogram lain. Komentar dalam C mengikuti *syntax* seperti di atas, dengan menambahkan `//` sebelum komentar, atau mengapit komentar dengan `/*` dan `*/`.
 
-## Variabel dan Tipe Data C
+### Variabel dan Tipe Data C
 Pada hampir semua bahasa pemrograman, terdapat sebuah sistem yang bernama variabel. Seperti pada aljabar, variabel adalah sebuah ekspresi yang berfungsi untuk menyimpan sebuah data. Pada aljabar, variabel dapat digambarkan di bawah ini.
 ```
 x + y = 10
@@ -60,7 +62,7 @@ x + y = 10
 ```
 Dari contoh di atas, dapat disimpulkan bahwa `x` bernilai 4 dan `y` bernilai 6. Pada bahasa C, terdapat juga variabel yang memiliki fungsi yang mirip seperti di atas, namun dengan berbagai macam jenis, masing-masing memiliki jenis data apa yang dapat disimpan dalam variabel tersebut. Lihat tabel di bawah ini
 
-### Tipe data C
+#### Tipe data C
 |Tipe Data|Jenis Data|Pendefinisian|
 |--|--|--|
 |Integer|Bilangan bulat|`char`, `short`, `int`, `long`, dan `long long`|
@@ -70,7 +72,7 @@ Dari contoh di atas, dapat disimpulkan bahwa `x` bernilai 4 dan `y` bernilai 6. 
 
 Setiap tipe data di atas memiliki rentang (nilai maksimal dan minimal yang dapat disimpan dalam sebuah variabel) masing-masing. Contohnya, `char` hanya dapat menyimpan -128 hingga 127, sedangkan `long` hingga 2 milyar tergantung pada implementasinya. Tipe data `unsigned` tidak dapat merepresentasikan bilangan negatif, namun rentang atasnya dua kali dari bilangan bulat. Floating point dapat menyimpan bilangan real seperti `3.14` atau `12.345`.
 
-### Pendefinisian Variabel C
+#### Pendefinisian Variabel C
 Variabel di bahasa pemrograman C harus didefinisikan sebelum dipakai pada program. Sebagai contoh, kita akan mendefinisikan sebuah variabel bernama `bejo` dan `dengklek` yang menyimpan nilai `42` dan `68`. Untuk nilai yang berupa angka, kita biasa menggunakan tipe data `int`.
 ```c
 int bejo = 42;
@@ -84,21 +86,5 @@ Kita coba untuk mendefinisikan variabel di atas, namun tidak memberikan nilai un
 ```c
 int bejo, dengklek;
 ```
-### Operasi Matematis pada Variabel
-Amati cuplikan kode di bawah ini.
-```c
-int bejo = 5, dengklek = 12, joyo = 10;
-int bengklek, beyo;
 
-bengklek = bejo + dengklek;
-beyo = bejo - joyo;
-```
-
-
-# TO DO LIST
-1. Menambah materi. Materi yang bisa ditambahkan mencakup
-	- Data types (termasuk defining dll)
-	- Pendefinisian variabel
-	- Operators
-	- printf type specifier
-	- scanf
+### Algoritma, Pseudocode, dan Source Code
