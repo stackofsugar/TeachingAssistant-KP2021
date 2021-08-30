@@ -1,3 +1,4 @@
+[<< Materi Sebelumnya (Operasi Assignment dan Aritmatika) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/3-OperasiAssignmentDanAritmatika.md)
 # 2.4 - Pemilihan dan Perulangan Sederhana
 
 Salah satu hal yang paling fundamental dalam pemrograman adalah adanya operasi pemilihan dan perulangan.
@@ -135,3 +136,5 @@ Analisa kode di atas:
 **Q:** Bagaimana bisa keluar dari perulangan?
 
 **A:** Ada yang bisa menjelaskan?
+
+Bab 1 selesai. [Kembali ke silabus](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md)
