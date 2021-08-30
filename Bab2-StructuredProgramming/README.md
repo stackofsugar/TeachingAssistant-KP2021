@@ -12,7 +12,7 @@
 
 ## Subtopik yang Akan Dibahas
 1. [Pengantar C](#pengantar-c)
-2. [Algoritma, Pseudocode, dan Source Code](#algoritma,-pseudocode,-dan-source-code)
+2. [Algoritma, Pseudocode, dan Source Code](#algoritma-pseudocode-dan-source-code)
 
 ## Pengantar C
 ### Program Sederhana
