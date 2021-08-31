@@ -2,7 +2,7 @@
 
 # Perulangan menggunakan For statement
 
-Setelah sebelumnya telah dijelaskan perulangan menggunakan **while statement** pada [Bab 2-4](https://https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/4-PemilihanPerulangan.md), kali ini kita akan menggunakan **for statement**
+Setelah sebelumnya telah dijelaskan perulangan menggunakan **while statement** pada [Bab 2-4](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/4-PemilihanPerulangan.md), kali ini kita akan menggunakan **for statement**
 
 ## For statement
 For statement adalah suatu statement perulangan/iterasi/loop yang memiliki tiga komponen yaitu inisialisasi, kondisi, dan update. For statement sering digunakan untuk _counter-controlled iteration_
