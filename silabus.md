@@ -7,6 +7,6 @@
     4. [Pemilihan dan Perulangan Sederhana](Bab2-StructuredProgramming/4-PemilihanPerulangan.md)
 - Bab 3 - Program Control
 	1. [Pemilihan dengan "switch"](Bab3-ProgramControl/1-PemilihanDenganSwitch.md)
-	2. [Perulangan menggunakan "for"](#)
+	2. [Perulangan menggunakan "for"](Bab3-ProgramControl/2-PerulanganMenggunakanFor.md)
 	3. [Perulangan menggunakan "do...while"](#)
 	4. [Perulangan dengan "break" dan "continue"](#)
