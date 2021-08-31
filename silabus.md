@@ -8,5 +8,5 @@
 - Bab 3 - Program Control
 	1. [Pemilihan dengan "switch"](Bab3-ProgramControl/1-PemilihanDenganSwitch.md)
 	2. [Perulangan menggunakan "for"](Bab3-ProgramControl/2-PerulanganMenggunakanFor.md)
-	3. [Perulangan menggunakan "do...while"](3-PerulanganMenggunakanDoWhile.md)
-	4. [Perulangan dengan "break" dan "continue"](#)
+	3. [Perulangan menggunakan "do...while"](Bab3-ProgramControl/3-PerulanganMenggunakanDoWhile.md)
+	4. [Perulangan dengan "break" dan "continue"](Bab3-ProgramControl/4-PerulanganBreakContinue.md)
