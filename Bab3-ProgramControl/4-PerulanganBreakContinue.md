@@ -17,6 +17,16 @@ while (i <= 10) {
     }
     i++;
 }
+
+/*
+Output:
+
+Quack!
+Quack!
+Quack!
+Quack!
+Quack!
+*/
 ```
 
 ## continue
@@ -34,6 +44,12 @@ for (i = 1; i <= 5; i++) {
     }
     printf("%d ", i); /* print nilai dari variabel i */
 }
+
+/*
+Output:
+
+1 2 4 5
+*/
 ```
 
 [Silabus >](../silabus.md)
