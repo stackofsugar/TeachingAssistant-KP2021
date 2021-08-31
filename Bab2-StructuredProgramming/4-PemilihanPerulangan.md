@@ -113,7 +113,7 @@ while (i <= 10) {
 Analisa kode di atas:
 
 1. Variabel `i` dideklarasikan kemudian diisi dengan nilai 1
-2. Selagi `i` bernilai kurang dari atau sama dengan 10, maka jalankan perintah `printf("Quack!\n")` kemudian `i++`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` di-*increment* (ditambah dengan 1) untuk mencapai nilai 10 sehingga program dapat keluar dari perulangan.
+2. Selagi `i` bernilai kurang dari atau sama dengan 10, maka jalankan perintah `printf("Quack!\n")` kemudian `i++`. Dalam tahap ini, sembari mengulang operasi, program menampilakn "Quack!" ke console kemudian nilai dari variabel `i` di-*increment* (ditambah dengan 1) kemudian kedua perintah tersebut diulang terus menerus sampai variabel `i` bernilai 11 sehingga program dapat keluar dari perulangan.
 
 **Q:** Bagaimana bisa keluar dari perulangan?
 
@@ -131,7 +131,7 @@ while (i < 102) {
 Analisa kode di atas:
 
 1. Variabel `i` dideklarasikan kemudian diisi dengan nilai awal pola yaitu 2
-2. Selagi `i` bernilai kurang dari 102, maka jalankan perintah `printf("%d ", i)` kemudian `i = i + 2`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` ditampilkan di layar kemudian ditambah dengan 2 terus menerus sampai keluar dari perulangan.
+2. Selagi `i` bernilai kurang dari 102, maka jalankan perintah `printf("%d ", i)` kemudian `i = i + 2`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` ditampilkan di layar kemudian ditambah dengan 2 dan kedua perintah tersebut diulang terus menerus sampai keluar dari perulangan.
 
 **Q:** Bagaimana bisa keluar dari perulangan?
 
