@@ -107,4 +107,4 @@ Dengan menggunakan Case Ranges penulisan `code` menjadi lebih cepat dan mudah di
     }
     ```
 
-[>> Materi Berikutnya (Perulangan menggunakan "for") >>](#) 
+[>> Materi Berikutnya (Perulangan menggunakan "for") >>](2-PerulanganMenggunakanFor.md) 
