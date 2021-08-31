@@ -11,6 +11,7 @@
 </h3>
 
 ## Tim Asisten Pengajar:
+
 - Michael Raditya Krisnadhi (IF 2020) | [GitHub](https://github.com/michaelrk02/) | [LinkedIn](https://www.linkedin.com/in/michaelrk02/) |
 - Christopher Digno M.D. (IF 2020) | [GitHub](https://github.com/stackofsugar) | [LinkedIn](https://www.linkedin.com/in/christopherdigno/) |
 - Aditya Aulia Al-Azizi (IF 2019) | [Github](https://github.com/adityaazizi) |
@@ -22,5 +23,4 @@
 
 Cek [pedoman kontribusi](CONTRIBUTING.md) kami.
 
-
->M.R. & C.D.
+> M.R. & C.D.
