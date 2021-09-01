@@ -29,4 +29,26 @@ Never gonna give you up
 
 Bisa dilihat pada contoh di atas, jika kita menggunakan statement `do...while`, meskipun kondisi `i == 100` tidak terpenuhi, perintah `printf()` kita tetap berjalan sekali.
 
+<details>
+  <summary>Contoh Source Code</summary>
+ 
+ ```c
+#include <stdio.h>
+
+int main() {
+    int i = 150;
+
+	do {
+		printf("Using do-while");
+	} 	while (i == 100);
+
+	while (i == 100) {
+        printf("Using while");
+    }
+}
+
+// Output: Using do-while
+ ```
+</details>
+
 [>> Materi Berikutnya (Perulangan dengan "break" dan "continue") >>](4-PerulanganBreakContinue.md)
