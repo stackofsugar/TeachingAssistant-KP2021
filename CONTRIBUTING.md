@@ -1,13 +1,4 @@
 # Contributing
-### Contributors
-Ini adalah list kakak-kakak/teman-teman mahasiswa dari Prodi Informatika angkatan 2020 dan 2019 yang membuat *repository* GitHub ini terbentuk. *Give them a round of applause!*
-
-1. Michael Raditya Krisnadhi (IF 2020) | [GitHub](https://github.com/michaelrk02/) | [LinkedIn](https://www.linkedin.com/in/michaelrk02/) |
-2. Christopher Digno M.D. (IF 2020) | [GitHub](https://github.com/stackofsugar) | [LinkedIn](https://www.linkedin.com/in/christopherdigno/) |
-3. Aditya Aulia Al-Azizi (IF 2019) | [Github](https://github.com/adityaazizi) |
-4. Adriel Alfeus Hutabarat (IF 2020) | [Github](https://github.com/Drithh) |
-5. Arga Putra Widiyat Pratama (IF 2020) | [Github](https://github.com/argaputra12) |
-6. Muhammad Alwiza A. (IF 2020) | [Github](https://github.com/alwizzz) |
 
 ### How To Contribute
 *We are creating awesome things on the shoulder of open-source software and documentations*. Kami sangat menyambut kontribusi dari semua pengguna *repository* kami, terkhususnya kalian, Mahasiswa Baru Informatika UNS 2021. Bentuk kontribusi yang sangat kami harapkan adalah *pull request* dan posting *issues*.
