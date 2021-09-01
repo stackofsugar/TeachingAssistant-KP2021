@@ -90,6 +90,39 @@ if (nilaiSaya >= 50) {
 
 - Selalu gunakan tanda kurung ( dan ) apabila diperlukan untuk mempertegas urutan evaluasi. Jika tidak diberi tanda kurung, program akan mengevaluasi operasi NOT atau `!` terlebih dahulu, kemudian operasi AND atau `&&`, kemudian yang terakhir operasi OR atau `||`.
 
+### Source Code
+
+<details>
+<summary>Contoh source code (full)</summary>
+
+```c
+#include <stdio.h>
+int main() {
+    int nilaiSaya;
+    
+    printf("Masukkan nilai anda: ");
+    scanf("%d", &nilaiSaya);
+
+    if (nilaiSaya >= 85) {
+        printf("Bagus!\n");
+    } else if ((nilaiSaya < 85) && (nilaiSaya >= 50)) {
+        printf("Cukup\n");
+    } else {
+        printf("Coba lagi\n");
+    }
+
+    return 0;
+}
+
+/*
+Output:
+
+Masukkan nilai anda: 80
+Cukup
+*/
+```
+</details>
+
 ## Perulangan: while
 
 Format penggunaannya yaitu:
@@ -136,5 +169,37 @@ Analisa kode di atas:
 **Q:** Bagaimana bisa keluar dari perulangan?
 
 **A:** Ada yang bisa menjelaskan?
+
+### Source code
+
+<details>
+<summary>Contoh source code (full)</summary>
+
+```c
+#include <stdio.h>
+int main() {
+    int i, count;
+    
+    printf("Masukkan jumlah quack: ");
+    scanf("%d", &count);
+    
+    i = 1;
+    while (i <= count) {
+        printf("Quack! ");
+        i++;
+    }
+    printf("\n");
+
+    return 0;
+}
+
+/*
+Output:
+
+Masukkan jumlah quack: 3
+Quack! Quack! Quack!
+*/
+```
+</details>
 
 Bab 1 selesai. [Kembali ke silabus](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md)
