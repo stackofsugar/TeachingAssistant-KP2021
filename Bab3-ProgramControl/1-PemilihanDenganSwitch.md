@@ -107,4 +107,39 @@ Dengan menggunakan Case Ranges penulisan `code` menjadi lebih cepat dan mudah di
     }
     ```
 
+
+<details>
+  <summary>Contoh Source Code</summary>
+
+  ```c
+    #include <stdio.h>
+
+    int main() {
+    char op;
+    double angkaPertama, angkaKedua;
+    printf("Enter an operator (+, -, *, /): ");
+    scanf("%c", &op);
+    printf("Enter two operands: ");
+    scanf("%lf %lf", &angkaPertama, &angkaKedua);
+
+    switch (op) {
+        case '+':
+        printf("%.1lf + %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama + angkaKedua);
+        break;
+        case '-':
+        printf("%.1lf - %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama - angkaKedua);
+        break;
+        case '*':
+        printf("%.1lf * %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama * angkaKedua);
+        break;
+        case '/':
+        printf("%.1lf / %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama / angkaKedua);
+        break;
+        default:
+        printf("Operator mu salah");
+    }
+    }
+  ```
+</details>
+
 [>> Materi Berikutnya (Perulangan menggunakan "for") >>](2-PerulanganMenggunakanFor.md) 
