@@ -132,6 +132,17 @@ while (1) {
         break; /* putuskan rantai infinite loop */
     }
 }
+
+/*
+Output:
+
+Masukkan 1 untuk menampilkan Quack!, masukkan 2 untuk keluar dari program: 1
+Quack!
+Masukkan 1 untuk menampilkan Quack!, masukkan 2 untuk keluar dari program: 1
+Quack!
+Masukkan 1 untuk menampilkan Quack!, masukkan 2 untuk keluar dari program: 2
+Good bye :)
+*/
 ```
 
 Perulangan `for` tanpa inisialisasi, kondisi, dan update juga dapat digunakan untuk menciptakan infinite loop:
