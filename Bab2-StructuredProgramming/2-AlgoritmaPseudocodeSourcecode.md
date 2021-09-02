@@ -1,4 +1,4 @@
-[<< Materi Sebelumnya (Pengantar (Program Sederhana, Variabel, Basic I/O)) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/1-PengantarProgramSederhanaVariabel.md)
+[<< Materi Sebelumnya (Pengantar) <<](1-PengantarProgramSederhanaVariabel.md)
 # 2.2 - Algoritma, Pseudocode, dan Source Code
 
 Dalam pembuatan program, kita pasti akan sering berhadapan dengan istilah "algoritma", "pseudocode", dan "source code". Sebenarnya apa sih perbedaan yang paling mendasar di antara mereka bertiga? Mari kita bahas semuanya di sini.
@@ -88,4 +88,4 @@ int main() {
     return 0;
 }
 ```
-[>> Materi Berikutnya (Operasi Assignment dan Aritmatika) >>](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/3-OperasiAssignmentDanAritmatika.md) 
+[>> Materi Berikutnya (Operasi Assignment dan Aritmatika)>>](3-OperasiAssignmentDanAritmatika.md) 

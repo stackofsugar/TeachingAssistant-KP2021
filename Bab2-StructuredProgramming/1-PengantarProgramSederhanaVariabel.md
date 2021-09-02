@@ -1,4 +1,4 @@
-[<< Materi Sebelumnya (Silabus) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md)
+[<< Materi Sebelumnya (Silabus) <<](../silabus.md)
 # 2.1 - Pengantar (Program Sederhana, Variabel, dan Basic I/O)
 ## Program Sederhana
 Seperti yang sudah ditunjukkan pada perkuliahan teori pertemuan pertama, program C pertama yang teman-teman kenal biasanya dikenal sebagai program *hello world* yang terlihat seperti di bawah ini.
@@ -154,4 +154,4 @@ Fungsi `scanf()` yang kita gunakan ini memiliki sebuah kekurangan, yaitu tidak b
 
 <br />
 
-[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code) >>](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/2-AlgoritmaPseudocodeSourcecode.md)
+[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code) >>](2-AlgoritmaPseudocodeSourcecode.md)

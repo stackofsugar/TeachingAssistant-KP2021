@@ -1,4 +1,4 @@
-[<< Materi Sebelumnya (Algoritma, Pseudocode, dan Source Code) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/2-AlgoritmaPseudocodeSourcecode.md)
+[<< Materi Sebelumnya (Algoritma, Pseudocode, dan Source Code) <<](2-AlgoritmaPseudocodeSourcecode.md)
 
 # 2.3 - Operasi Assignment dan Aritmatika
 Sebuah operasi adalah proses yang melibatkan *operand* dan operator, untuk menggambarkan sebuah kejadian. Secara matematis, kita sudah sering menemukan operasi, seperti `1 + 1 = 2`.
@@ -55,4 +55,4 @@ Selain dua jenis operator dasar tersebut, masih banyak operator lain yang akan d
 - Operator Bitwise
 - Lain-lainnya, seperti conditional/ternary, pointer, dan reference.
 
-[>> Materi Berikutnya (Pemilihan dan Perulangan Sederhana) >>](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/4-PemilihanPerulangan.md) 
+[>> Materi Berikutnya (Pemilihan dan Perulangan Sederhana) >>](4-PemilihanPerulangan.md) 

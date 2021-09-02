@@ -1,4 +1,4 @@
-[<< Materi Sebelumnya (Silabus) <<](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md)
+[<< Materi Sebelumnya (Silabus) <<](../silabus.md)
 # 3.1 - Pemilihan dengan Switch
 
 Switch case sangat berguna ketika ingin melakukan perbandingan untuk banyak kasus
