@@ -107,5 +107,39 @@ Output:
 */
 ```
 </details>
+    
+## Bonus : infinite loop
+
+*Terima kasih kepada Hezkiel Bram Setiawan (IF 2021) karena telah berkontribusi terhadap materi tambahan namun esensial ini*
+
+Salah satu kegunaan **break** yang penting adalah kemampuannya yang dapat memutus rantai **infinte loop** (perulangan tak terhingga), yang dalam hal ini kondisi pada perulangan *while* atau *for* selalu bernilai benar (tidak pernah salah), contohnya adalah seperti: `while (1 == 1)`, maka perulangan tersebut akan berjalan selamanya. Dengan demikian, untuk dapat keluar dari perulangan tak terhingga, perlu menggunakan kata kunci **break**
+
+Sekarang perhatikan contoh berikut:
+```c
+/* while (1) dapat dinyatakan sebagai infinite loop karena kondisi (1) akan dianggap benar oleh komputer */
+while (1) {
+    /* bagian ini terletak dalam infinite loop */
+    
+    int input;
+    
+    printf("Masukkan 1 untuk menampilkan Quack!, masukkan 2 untuk keluar dari program: ");
+    scanf("%d", &input);
+    
+    if (input == 1) {
+        printf("Quack!\n");
+    } else if (input == 2) {
+        printf("Good bye :)\n");
+        break; /* putuskan rantai infinite loop */
+    }
+}
+```
+
+Perulangan `for` tanpa inisialisasi, kondisi, dan update juga dapat digunakan untuk menciptakan infinite loop:
+```c
+for (;;) {
+    /* bagian ini terletak dalam infinite loop */
+    /* ... */
+}
+```
 
 [Silabus >](../silabus.md)
