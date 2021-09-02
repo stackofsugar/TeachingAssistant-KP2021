@@ -83,7 +83,7 @@ Cara menggunakannya seperti ini:
 ```
 case rendah ... tinggi
 ```
-Dengan menggunakan Case Ranges penulisan `code` menjadi lebih cepat dan mudah dibaca.<br> Berikut perbandingannya:
+Dengan menggunakan Case Ranges penulisan code menjadi lebih cepat dan mudah dibaca.<br> Berikut perbandingannya:
 - Tidak menggunakan Case Ranges
   ```c
     switch (pilihan)
@@ -107,38 +107,38 @@ Dengan menggunakan Case Ranges penulisan `code` menjadi lebih cepat dan mudah di
     }
     ```
 
-
+### Source code
 <details>
   <summary>Contoh Source Code</summary>
 
   ```c
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main() {
+int main() {
+    double angkaPertama, angkaKedua, hasil;
     char op;
-    double angkaPertama, angkaKedua;
-    printf("Enter an operator (+, -, *, /): ");
-    scanf("%c", &op);
-    printf("Enter two operands: ");
-    scanf("%lf %lf", &angkaPertama, &angkaKedua);
+    printf("Masukkan Angka Pertama, Operator, Angka Kedua. yang mana Operatornya diantara (+, -, *, /): ");
+    scanf("%lf %c %lf", &angkaPertama, &op, &angkaKedua);
 
     switch (op) {
         case '+':
-        printf("%.1lf + %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama + angkaKedua);
-        break;
+            hasil = angkaPertama + angkaKedua;
+            break;
         case '-':
-        printf("%.1lf - %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama - angkaKedua);
-        break;
+            hasil = angkaPertama - angkaKedua;
+            break;
         case '*':
-        printf("%.1lf * %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama * angkaKedua);
-        break;
+            hasil = angkaPertama * angkaKedua;
+            break;
         case '/':
-        printf("%.1lf / %.1lf = %.1lf", angkaPertama, angkaKedua, angkaPertama / angkaKedua);
-        break;
+            hasil = angkaPertama / angkaKedua;
+            break;
         default:
-        printf("Operator mu salah");
+            printf("Operator mu salah");
     }
-    }
+    printf("%.1lf %c %.1lf = %.1lf\n", 
+        angkaPertama, op, angkaKedua, hasil);
+}
   ```
 </details>
 
