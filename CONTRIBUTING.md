@@ -9,4 +9,5 @@ Untuk kalian yang sudah memahami *working cycle* dari GitHub, kalian bisa member
 #### 3. Kontak
 Untuk kalian yang menginginkan cara yang lebih simpel, silakan kontak asdos kalian di grup chat KP masing-masing kelas.
 
->C.D.
+### Important Note
+Jika anda ingin menambahkan materi/teori pada repo kami, pastikan contoh yang anda buat *straightforward* dan mudah dipahami, terkhususnya untuk orang-orang yang baru memulai belajar pemrograman menggunakan C. 
