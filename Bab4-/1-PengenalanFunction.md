@@ -60,7 +60,7 @@ Deklarasi fungsi diharuskan ketika kalian mendefinisikan fungsi pada suatu file 
 
 ## Calling a Functions
 Ketika membuat suatu fungsi pada C++ kalian harus memberikan definisi dan apa yang harus dilakukan oleh fungsi tersebut. Untuk menggunakan fungsi tersebut, kalian harus memanggil fungsi tersebut terlebih dahulu.
-Untuk memanggil suatu fungsi, kalian perlu meneruskan parameter bersamaan dengan nama fungsi. Jika fungsi tersebut me-*return* suatu nilai, maka nilai yang dikembalikan tersebut dapat disimpan terlebih dahulu.
+Pada saat memanggil suatu fungsi, kalian perlu meneruskan parameter bersamaan dengan nama fungsi. Jika fungsi tersebut me-*return* suatu nilai, maka nilai yang dikembalikan tersebut dapat disimpan terlebih dahulu.
 
 
 ### Source Code
