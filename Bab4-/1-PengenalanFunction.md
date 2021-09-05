@@ -7,7 +7,7 @@ C++ standard library menydiakan beberapa fungsi bawaan yang dapat dipanggil lang
 
 ## Defining Function
 
-```
+```c
   return_type function_name(parameter list){
     body_function;
   }
@@ -21,7 +21,7 @@ C++ standard library menydiakan beberapa fungsi bawaan yang dapat dipanggil lang
 ### Example
 Berikut merupakan fungsi untuk menentukan nilai terbesar dari ketiga parameter dengan menggunakan pemilihan if else.
 
-```
+```c
   int biggest(int num1, int num2, int num3){
     
     //deklarasi variabel lokal
@@ -40,20 +40,61 @@ Berikut merupakan fungsi untuk menentukan nilai terbesar dari ketiga parameter d
 ## Function Declarations
 Deklarasi fungsi berfungsi untuk memberitahu compiler nama fungsi dan bagaimana fungsi tersebut dipanggil. Dengan adanya deklarasi fungsi, isi dari suatu fungsi dapat didefinisikan secara terpisah
 
-```
+```c
   return_type function_name( parameter list );
 ```
 
 Jika fungsi _biggest_ dideklarasikan, akan menjadi seperti berikut,
 
-```
+```c
   int biggest(int num1, int num2, int num3);
 ```
 
 Sebenarnya, nama dari parameter tidak terlalu penting saat fungsi tersebut dideklarasikan. Maka dari itu dapat juga dituliskan sebagai berikut,
 
-```
+```c
   int biggest (int, int, int);
 ```
 
 Deklarasi fungsi diharuskan ketika kalian mendefinisikan fungsi pada suatu file dan memanggil fungsi tersebut pada file yang lain, mendeklarasikan fungsi diletakkan pada bagian atas dari  _code_ yang memanggil fungsi tersebut. 
+
+## Calling a Functions
+Ketika membuat suatu fungsi pada C++ kalian harus memberikan definisi dan apa yang harus dilakukan oleh fungsi tersebut. Untuk menggunakan fungsi tersebut, kalian harus memanggil fungsi tersebut terlebih dahulu.
+Pada saat memanggil suatu fungsi, kalian perlu meneruskan parameter bersamaan dengan nama fungsi. Jika fungsi tersebut me-*return* suatu nilai, maka nilai yang dikembalikan tersebut dapat disimpan terlebih dahulu.
+
+
+### Source Code
+
+
+<details>
+  <summary>Contoh Source Code</summary>
+  
+  ```c
+#include <stdio.h>
+
+int biggest(int, int, int);
+
+int main(){
+	int x = 4, y = 5, z = 2, max;
+  	
+  	max = biggest(x,y,z);
+  	printf("the biggest number is %d", max);
+}
+
+int biggest(int num1, int num2, int num3){
+    
+	//deklarasi variabel lokal
+    int max;
+    
+    if(num1 > num2 && num1 > num3) max = num1;
+    else if(num2 > num1 && num2 > num3) max = num2;
+    else{
+      max = num3;
+    }
+    
+    return max;
+}
+  
+//the biggest number is 5
+  ```
+</details>
