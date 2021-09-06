@@ -1,7 +1,13 @@
 [<< Materi Sebelumnya (Silabus) <<](../silabus.md)
 # 4.1 Pengenalan Function
 
-Fungsi merupakan kumpulan pernyataan yang menjalankan suatu tugas. Setiap program C setidaknya memiliki satu fungsi yaitu fungsi `main`. Kalian setidaknya dapat membagi kode anda dalam beberapa fungsi yang berbeda dengan tiap fungsi mengerjakan tugas yang spesifik. Deklarasi fungsi menyatakan nama, return type, dan parameter dari suatu fungsi. Ketika, mendefinisikan suatu fungsi, Kalian juga dapat menuliskan isi dari fungsi tersebut.
+Fungsi merupakan kumpulan perintah yang dapat menjalankan suatu tugas spesifik dengan tujuan supaya dapat digunakan secara efektif apabila diperlukan, sehingga tidak perlu menulis perintah-perintah yang sama pada kode ketika akan menjalankan suatu tindakan yang sifatnya repetitif (ini merupakan bagian dari konsep **modular** dalam pemrograman sehingga menciptakan kode atau fungsi yang _reusable_ atau dapat digunakan kembali).
+
+Setiap program C setidaknya memiliki satu fungsi yaitu fungsi `main`.
+
+Kalian setidaknya dapat membagi kode anda dalam beberapa fungsi yang berbeda dengan tiap fungsi mengerjakan tugas yang spesifik.
+
+Deklarasi fungsi menyatakan nama, return type, dan parameter dari suatu fungsi. Ketika, mendefinisikan suatu fungsi, Kalian juga dapat menuliskan isi dari fungsi tersebut.
 
 C standard library menydiakan beberapa fungsi bawaan yang dapat dipanggil langsung oleh program kalian. Contoh fungsi bawaan tersebut diantaranya adalah printf() yang digunakan untuk menampilkan output ke console, lalu ada fungsi scanf() yang untuk menerima input dari console, dan masih banyak lagi.
 
