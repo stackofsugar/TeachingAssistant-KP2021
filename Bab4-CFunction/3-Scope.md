@@ -11,9 +11,11 @@ if (pilihan == 2) {
     scanf("%d", &kode);
 
     /* `kode` dapat digunakan di sini */
+    printf("Kode anda: %d\n", kode);
 
     if (kode == 111) {
         /* `kode` juga masih dapat digunakan di sini, begitu juga seterusnya */
+        printf("Kode anda lagi: %d\n", kode);
     }
 }
 /* tetapi `kode` tidak dapat digunakan di sini, karena perbedaan "scope" */
