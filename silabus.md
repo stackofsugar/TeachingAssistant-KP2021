@@ -12,6 +12,6 @@
 	4. [Perulangan dengan "break" dan "continue"](Bab3-ProgramControl/4-PerulanganBreakContinue.md)
 - Bab 4 - Function
     1. [Pengenalan Function](Bab4-CFunction/1-PengenalanFunction.md)
-    2. [Fungsi-Fungsi Penting C](#)
+    2. [Fungsi-Fungsi Penting C](Bab4-CFunction/2-FungsiLibraryC.md)
     3. [Aturan Scope](Bab4-CFunction/3-Scope.md)
     4. [Rekursi](Bab4-CFunction/4-Rekursi.md)
