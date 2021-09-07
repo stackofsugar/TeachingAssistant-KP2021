@@ -1,3 +1,5 @@
+[<< Materi Sebelumnya (Function Scope) <<](2-FungsiLibraryC.md)
+
 # 4.3 - Aturan Scope
 
 Apa itu scope? **Scope** (atau ruang lingkup) menandakan keterlihatan (visibility) dari suatu **variabel** supaya dapat diakses oleh kode yang membutuhkan
