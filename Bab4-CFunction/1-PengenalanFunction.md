@@ -219,4 +219,4 @@ void quack_3_kali() {
 ```
 </details>
 
-[>> Materi Sebelumnya (Fungsi Library C) >>](2-FungsiLibraryC.md)
+[>> Materi Sesudahnya (Fungsi Library C) >>](2-FungsiLibraryC.md)
