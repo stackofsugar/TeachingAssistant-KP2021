@@ -220,4 +220,4 @@ int main() {
 ```
 </details>
 
-[>> Materi Berikutnya (Rekursi) <<](4-Rekursi.md)
+[>> Materi Berikutnya (Aturan Scope) <<](3-Scope.md)
