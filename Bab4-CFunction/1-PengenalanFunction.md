@@ -219,4 +219,54 @@ void quack_3_kali() {
 ```
 </details>
 
+<details>
+<summary>BONUS : Contoh source code yang menerapkan reusability</summary>
+
+```c
+#include <stdio.h>
+
+int mintaInput(char* );
+int hitungVolume(int p, int l, int t);
+
+int main() {
+    /* manfaatkan reusability dari fungsi mintaInput() */
+    int panjang = mintaInput("panjang");
+    int lebar = mintaInput("lebar");
+    int tinggi = mintaInput("tinggi");
+
+    printf("volume balok adalah %d\n", hitungVolume(panjang, lebar, tinggi));
+    return 0;
+}
+
+
+int mintaInput(char* jenis) {
+    int angka;
+    printf("============================\n");
+    printf("Masukkan %s: ", jenis);
+    scanf("%d", &angka);
+    printf("============================\n");
+    return angka;
+}
+
+int hitungVolume(int p, int l, int t) {
+    return p * l * t;
+}
+
+/*
+Output:
+
+============================
+Masukkan panjang: 3
+============================
+============================
+Masukkan lebar: 4
+============================
+============================
+Masukkan tinggi: 5
+============================
+volume balok adalah 60
+*/
+```
+</details>
+
 [>> Materi Sesudahnya (Fungsi Library C) >>](2-FungsiLibraryC.md)
