@@ -15,3 +15,4 @@
     2. [Fungsi-Fungsi Penting C](Bab4-CFunction/2-FungsiLibraryC.md)
     3. [Aturan Scope](Bab4-CFunction/3-Scope.md)
     4. [Rekursi](Bab4-CFunction/4-Rekursi.md)
+- [AUX - Best Practice](AUX-BestPractice.md)
