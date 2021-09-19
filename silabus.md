@@ -15,4 +15,8 @@
     2. [Fungsi-Fungsi Penting C](Bab4-CFunction/2-FungsiLibraryC.md)
     3. [Aturan Scope](Bab4-CFunction/3-Scope.md)
     4. [Rekursi](Bab4-CFunction/4-Rekursi.md)
+- Bab 5 - Array
+    1. [Pengenalan Array](Bab5-Array/1-PengenalanArray.md)
+    2. [Array Multidimensi](#)
+    3. [Array Sebagai Parameter Fungsi](#)
 - [AUX - Best Practice](AUX-BestPractice.md)
