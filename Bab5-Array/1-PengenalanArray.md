@@ -182,6 +182,29 @@ Harga item ke-3: 3100
 */
 ```
 
+### INGAT!!!
+
+Coba amati kode di bawah dan cari letak kesalahannya:
+```c
+int count;
+int i;
+
+printf("Masukkan jumlah item: ");
+scanf("%d", &count);
+
+int price_list[count];
+for (i = 0; i < count; i++) {
+    printf("Masukkan harga item ke-%d: ", (i + 1));
+    scanf("%d", &price_list[i]);
+}
+printf("=== LIST HARGA ===\n");
+for (i = 0; i < count; i++) {
+    printf("- Harga item ke-%d: %d\n", (i + 1), price_list[i]);
+}
+```
+
+Sekilas kode di atas nampak benar-benar saja dan bisa dijalankan **apabila dicompile dengan MinGW/GCC** (compiler yang dimiliki oleh DevC++, CodeBlocks, dll). Namun kode tersebut **tidak bisa dicompile menggunakan Microsoft Visual C++ Compiler** (compiler yang dimiliki oleh Microsoft Visual Studio). Ternyata setelah ditelusuri, penyebab compiler error pada Visual C++ adalah kesalahan yang terletak pada deklarasi array `int price_list[count]`. Dalam bahasa pemrograman C, praktik seperti itu (mengatur kapasitas array berdasarkan **variabel**) tidak ada dalam spesifikasi atau standar pemrograman bahasa C. Oleh karena itu, **hindari** pendeklarasian array dengan kapasitas diambil dari suatu variabel. Selalu gunakan kapasitas berupa **angka konstan** saat menulis code dimanapun supaya kode yang anda tulis dapat dicompile di berbagai compiler modern. Solusi alternatif untuk ini adalah mendeklarasikan array dengan kapasitas konstan yang cukup besar dan menggunakan variabel baru yang menyatakan ukuran array, seperti yang tertera di kode pada topik yang telah dibahas sebelumnya.
+
 ## Contoh Source Code
 
 <details>
