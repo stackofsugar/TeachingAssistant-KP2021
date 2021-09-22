@@ -148,8 +148,9 @@ Masukkan matriks anda baris demi baris di bawah:
 Matrix anda:
 1 2 3
 4 5 6
-*/```
+*/
+```
   
-</details
+</details>
   
-[Materi Selanjutnya (Pengenalan Array) >>](3-ArraySebagaiParameterFungsi.md)
+[Materi Selanjutnya (Array Sebagai Parameter Fungsi) >>](3-ArraySebagaiParameterFungsi.md)
