@@ -309,4 +309,4 @@ Masukkan 1 untuk menambah item, atau 0 untuk berhenti : 0
 ```
 </details>
 
-[Materi Berikutnya (Array Multidimensi) >>](#)
+[Materi Berikutnya (Array Multidimensi) >>](2-ArrayMultidimensi.md)

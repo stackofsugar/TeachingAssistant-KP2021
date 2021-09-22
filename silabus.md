@@ -17,6 +17,6 @@
     4. [Rekursi](Bab4-CFunction/4-Rekursi.md)
 - Bab 5 - Array
     1. [Pengenalan Array](Bab5-Array/1-PengenalanArray.md)
-    2. [Array Multidimensi](#)
-    3. [Array Sebagai Parameter Fungsi](#)
+    2. [Array Multidimensi](Bab5-Array/2-ArrayMultidimensi.md)
+    3. [Array Sebagai Parameter Fungsi](Bab5-Array/3-ArraySebagaiParameterFungsi.md)
 - [AUX - Best Practice](AUX-BestPractice.md)
