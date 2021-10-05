@@ -139,8 +139,12 @@ Health sekarang: 75
 
 ## NULL Pointer
 
-Pointer dapat diberikan nilai khusus yaitu **NULL**. Hal ini berguna apabila anda tidak ingin meng-insialisasi pointer tersebut, melainkan memberinya dengan nilai NULL dan beberapa saat kemudian, program anda mengecek apakah pointer masih kosong (NULL) atau sudah merujuk ke suatu variabel. Sebagai contoh:
+Pointer dapat diberikan nilai khusus yaitu **NULL**. Hal ini berguna apabila anda tidak ingin meng-insialisasi pointer tersebut, melainkan memberinya dengan nilai NULL dan beberapa saat kemudian, program anda mengecek apakah pointer masih kosong (NULL) atau sudah merujuk ke suatu variabel. Jika compiler tidak bisa menemukan kata kunci NULL, pastikan untuk meng-include header **stddef.h** terlebih dahulu. Sebagai contoh:
 ```c
+#include <stddef.h> /* Supaya NULL terdefinisi dengan jelas */
+
+/* ... */
+
 int health = 100;
 int *health_ptr;
 int choice;
