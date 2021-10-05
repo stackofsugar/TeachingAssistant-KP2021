@@ -38,8 +38,8 @@ Oke jadi kode di atas merupakan contoh permasalahan yang dapat diselesaikan meng
 ## Deklarasi Pointer
 
 Pointer dapat dideklarasikan dengan format sebagai berikut:
-```c
-/*TipeData*/ */*NamaVariabel*/;
+```
+<Tipe Data> *<Nama Variabel>;
 ```
 
 Sebagai contoh:
