@@ -19,6 +19,10 @@
     1. [Pengenalan Array](Bab5-Array/1-PengenalanArray.md)
     2. [Array Multidimensi](Bab5-Array/2-ArrayMultidimensi.md)
     3. [Array Sebagai Parameter Fungsi](Bab5-Array/3-ArraySebagaiParameterFungsi.md)
+- Bab 6 - Pointer
+    1. [Pengenalan Pointer](Bab6-Pointer/1-Pengenalan.md)
+    2. [Pass By Reference](Bab6-Pointer/2-PassByRef.md)
+    3. [Dynamic Memory Allocation](Bab6-Pointer/3-DMA.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)
