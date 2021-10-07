@@ -32,7 +32,8 @@ if (choice == 1) {
     *data = 5;
 
     /* Di sini, alamat memori X berisi nilai dari memori yang ditunjuk oleh pointer `data` */
-    /* Pointer `data` mengarah ke suatu memori (X), tetapi tidak mengarah ke variabel apapun pada program, berbeda dengan topik sebelumnya */
+    /* Pointer `data` mengarah ke suatu memori (X), tetapi tidak mengarah ke variabel apapun pada program */ 
+    /* Hal ini berbeda dengan topik sebelumnya, yang mana pointer-pointer pada topik sebelumnya selalu dibuat mengarah ke variabel tertentu */
     printf("Data: %d\n", *data);
 
     /* Catat alamat memori X tersebut ke dalam variabel `address` */
