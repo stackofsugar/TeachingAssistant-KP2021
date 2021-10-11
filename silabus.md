@@ -23,6 +23,9 @@
     1. [Pengenalan Pointer](Bab6-Pointer/1-Pengenalan.md)
     2. [Pass By Reference](Bab6-Pointer/2-PassByRef.md)
     3. [Dynamic Memory Allocation](Bab6-Pointer/3-DMA.md)
+- Bab 7 - Formatted I/O
+	1. [Printf Formats](Bab7-FormattedIO/1-PrintfFormats.md)
+	2. [Scanf Formats](Bab7-FormattedIO/2-ScanfFormats.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)
