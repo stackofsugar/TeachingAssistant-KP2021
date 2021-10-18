@@ -6,7 +6,7 @@ Sekarang kita tinjau kembali masalah yang ada pada topik pengantar sebelumnya
 ```c
 #include <stdio.h>
 
-int kurangi_health(int jumlah);
+void kurangi_health(int jumlah);
 
 int main() {
     int health = 100;
@@ -22,7 +22,7 @@ int main() {
     return 0;
 }
 
-int kurangi_health(int jumlah) {
+void kurangi_health(int jumlah) {
     /* Namun terdapat suatu masalah di sini, yaitu scopenya berbeda dengan main() */
     /* Sehingga pada area ini, `health` tidak terdefinisi dan kode di bawah akan memproduksi error */
 
@@ -37,7 +37,7 @@ Kode di atas dapat dimodifikasi menjadi:
 #include <stdio.h>
 
 /* Tambah parameter berupa pointer */
-int kurangi_health(int *health_ptr, int jumlah);
+void kurangi_health(int *health_ptr, int jumlah);
 
 int main() {
     int health = 100;
@@ -54,7 +54,7 @@ int main() {
     return 0;
 }
 
-int kurangi_health(int *health_ptr, int jumlah) {
+void kurangi_health(int *health_ptr, int jumlah) {
     /* Akses variabel yang dirujuk oleh `health_ptr` */
 
     *health_ptr = *health_ptr - jumlah;

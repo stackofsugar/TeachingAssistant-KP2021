@@ -9,7 +9,7 @@ Apa pentingnya belajar pointer? Pointer memungkinkan kita untuk **mengganti** ni
 ```c
 #include <stdio.h>
 
-int kurangi_health(int jumlah);
+void kurangi_health(int jumlah);
 
 int main() {
     int health = 100;
@@ -25,7 +25,7 @@ int main() {
     return 0;
 }
 
-int kurangi_health(int jumlah) {
+void kurangi_health(int jumlah) {
     /* Namun terdapat suatu masalah di sini, yaitu scopenya berbeda dengan main() */
     /* Sehingga pada area ini, `health` tidak terdefinisi dan kode di bawah akan memproduksi error */
 
