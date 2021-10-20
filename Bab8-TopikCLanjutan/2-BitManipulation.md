@@ -246,7 +246,7 @@ int main() {
     printf("\n");
 
     /*
-    0xFF adalah bilangan hexadecimal yang nilainya = 255 = 1111 1111 (dalam bit)
+    0xFF adalah bilangan hexadecimal yang nilainya = 255 = 1111 1111 (dalam bit) yang digunakan untuk memotong angka menjadi 8 bit
     */
 }
 ```
