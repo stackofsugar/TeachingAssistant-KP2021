@@ -1,6 +1,6 @@
 [<< Silabus](../silabus.md)
 
-# 8.1 - Bit Manipulation
+# 8.2 - Bit Manipulation
 
 Apa itu Bit Manipulation? Bit Manipulation adalah tindakan memanipulasi bit secara algoritmik atau data lain yang lebih pendek atau kecil dari satu byte. Dan bahasa C sangat efisien dalam melakuakn memanipulasi bit ini.
 
