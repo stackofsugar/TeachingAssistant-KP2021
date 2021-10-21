@@ -657,3 +657,5 @@ Weapon name: Desert Eagle
  Rounds: 7
 */
 ```
+
+[Materi Selanjutnya (Bit Manipulation) >>](2-BitManipulation.md)

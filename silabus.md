@@ -26,6 +26,10 @@
 - Bab 7 - Formatted I/O
 	1. [Printf Formats](Bab7-FormattedIO/1-PrintfFormats.md)
 	2. [Scanf Formats](Bab7-FormattedIO/2-ScanfFormats.md)
+- Bab 8 - Topik C Lanjutan
+    1. [Struct dan Union](Bab8-TopikCLanjutan/1-StructUnion.md)
+    2. [Bit Manipulation](Bab8-TopikCLanjutan/2-BitManipulation.md)
+    3. [Enumeration](Bab8-TopikCLanjutan/3-Enum.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)

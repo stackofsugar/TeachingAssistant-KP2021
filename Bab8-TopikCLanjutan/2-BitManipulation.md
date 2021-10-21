@@ -250,3 +250,5 @@ int main() {
     */
 }
 ```
+
+[Materi Selanjutnya (Enumeration) >>](3-Enum.md)
