@@ -1,4 +1,4 @@
-[<< Silabus](../silabus.md)
+[<< Materi Sebelumnya (Struct dan Union)](1-StructUnion.md)
 
 # 8.2 - Bit Manipulation
 
