@@ -151,7 +151,7 @@ Member variable (variabel anggota) yang terdapat pada struct Weapon adalah: `nam
 
 ### Deklarasi Variable Bertipe Struct
 
-Suatu variable yang bertipe suatu struct dapat dideklarasikan dengan format:
+Suatu variable yang bertipe suatu struct (yang selanjutnya akan disebut sebagai **obyek**) dapat dideklarasikan dengan format:
 ```c
 struct /*NamaStruct*/ /*NamaVariabel*/;
 ```
@@ -161,7 +161,7 @@ Sebagai contoh:
 struct Weapon deagle;
 struct Weapon ak47, m4a1;
 ```
-Kode di atas mendeklarasikan 3 variable (`deagle`, `ak47`, dan `m4a1`) yang semuanya bertipe `struct Weapon`.
+Kode di atas mendeklarasikan 3 variable atau obyek (`deagle`, `ak47`, dan `m4a1`) yang semuanya bertipe `struct Weapon`.
 
 ### Inisialisasi Variable Bertipe Struct
 
@@ -175,20 +175,20 @@ Sebagai contoh:
 ```c
 struct Weapon deagle = {"Desert Eagle", 750, 35, 7};
 ```
-Kode di atas menginisialisasikan `deagle` dengan `name` adalah *Desert Eagle*, `price` adalah 750, `damage` adalah 35, dan `rounds` adalah 7.
+Kode di atas menginisialisasikan obyek `deagle` dengan `name` adalah *Desert Eagle*, `price` adalah 750, `damage` adalah 35, dan `rounds` adalah 7.
 
 **Terpisah dari deklarasi:**
 ```c
-/* Inisialisasi NamaStruct.Member1 */;
-/* Inisialisasi NamaStruct.Member2 */;
-/* Inisialisasi NamaStruct.Member3 */;
+/* Inisialisasi Obyek.Member1 */;
+/* Inisialisasi Obyek.Member2 */;
+/* Inisialisasi Obyek.Member3 */;
 /* dst... */
 ```
 Sebagai contoh:
 ```c
 struct Weapon deagle;
 
-/* Inisialisasi deagle */
+/* Inisialisasi obyek deagle */
 strcpy(deagle.name, "Desert Eagle"); /* Inisialisasi deagle.name (#include <string.h> terlebih dahulu) */
 deagle.price = 750; /* Inisialisasi deagle.price */
 deagle.damage = 35; /* Inisialisasi deagle.damage */
@@ -197,7 +197,7 @@ deagle.rounds = 7; /* Inisialisasi deagle.rounds */
 
 ### Operasi Assignment Pada Struct
 
-Suatu struct dapat diisi dengan obyek lain dari struct yang sama menggunakan operasi assignment (=), sebagai contoh:
+Suatu obyek atau variable bertipe struct dapat diisi oleh obyek lain dengan tipe struct yang sama menggunakan operasi assignment (=), sebagai contoh:
 ```c
 struct Weapon m4a1;
 struct Weapon weapon_list[5] = {
@@ -210,6 +210,17 @@ struct Weapon weapon_list[5] = {
 
 /* Isi variable `m4a1` dengan elemen keempat (indeks: 3) dari array `weapon_list` */
 m4a1 = weapon_list[3];
+
+print_weapon(&m4a1);
+
+/*
+Output:
+
+Weapon name: M4A1
+ Price: $3100
+ Damage: 20%
+ Rounds: 30
+*/
 ```
 
 ### Membaca Data Pada Struct
@@ -575,7 +586,7 @@ int main() {
     num2.value.dblVal = 15.0;
     result = addTwoNumbers(num1, num2);
     printNumber(result);
-    
+
     return 0;
 }
 
