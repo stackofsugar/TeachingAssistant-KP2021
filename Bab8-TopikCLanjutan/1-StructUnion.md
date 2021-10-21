@@ -424,6 +424,8 @@ int main() {
     /* Tampilkan semua senjata */
     print_weapons(weapon_list, weapon_count);
 
+    free(weapon_list);
+
     return 0;
 }
 
@@ -506,17 +508,25 @@ int main() {
     union Number num;
 
     num.iVal = 32;
-
-    /* Sekarang 64.0 adalah nilai yang sebenarnya tersimpan dalam `num` */
+    num.fVal = 64.0f;
+    /* Sekarang 64.0f adalah nilai yang sebenarnya tersimpan dalam `num` */
     /* `num.iVal` sudah tidak 32 lagi, melainkan sudah tidak bermakna apa-apa */
-    num.dblVal = 64.0;
 
     /* Tidak menampilkan nilai 32, melainkan representasi bilangan floating point dari 64.0 dalam bentuk integer (FYI bilangan floating point disimpan dalam komputer dalam bentuk unsigned integer) */
     printf("num.iVal = %d\n", num.iVal);
 
     /* Menampilkan nilai 64.0 karena operasi assignment terakhir kali adalah `num.dblVal = 64.0;` */
-    printf("num.dblVal = %lf\n", num.dblVal);
+    printf("num.fVal = %f\n", num.fVal);
+
+    return 0;
 }
+
+/*
+Output:
+
+num.iVal = 1115684864
+num.fVal = 64.000000
+*/
 ```
 
 Konsep union sebenarnya hanya ditemukan dalam bahasa C dan termasuk dalam kategori jarang dipakai karena pada bahasa pemrograman populer lain tidak terdapat konsep union. Akan tetapi, tidak salah juga apabila ikut dipelajari sehingga anda dapat menguasai bahasa pemrograman C secara menyeluruh.
