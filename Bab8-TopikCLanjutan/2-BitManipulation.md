@@ -215,7 +215,7 @@ int main() {
 ```
 
 ### Left Shift ( << )
-Operator biner yang beroperasi dengan melakukan **Shift atau Geser Kiri** sebanyak *n* kali dengan *n* adalah nilai yang berada setelah operator >>. 
+Operator biner yang beroperasi dengan melakukan **Shift atau Geser Kiri** sebanyak *n* kali dengan *n* adalah nilai yang berada setelah operator <<. 
 
 ```
 Contoh 51
