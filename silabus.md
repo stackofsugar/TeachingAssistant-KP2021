@@ -30,6 +30,10 @@
     1. [Struct dan Union](Bab8-TopikCLanjutan/1-StructUnion.md)
     2. [Bit Manipulation](Bab8-TopikCLanjutan/2-BitManipulation.md)
     3. [Enumeration](Bab8-TopikCLanjutan/3-Enum.md)
+- Bab 9 - File Processing
+    1. [Pengantar File Processing](Bab9-FileProcessing/1-Pengantar.md)
+    2. [Sequential Access](Bab9-FileProcessing/2-SequentialAccess.md)
+    3. [Random Access](Bab9-FileProcessing/3-RandomAccess.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)
