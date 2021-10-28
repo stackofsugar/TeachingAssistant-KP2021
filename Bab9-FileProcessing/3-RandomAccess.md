@@ -6,7 +6,7 @@
 
 ## Operasi Penulisan (Write)
 
-Dalam membaca file berjenis binary, dapat menggunakan fungsi `fwrite` yang terdeklarasi sebagai berikut:
+Dalam menulis ke file berjenis binary, dapat menggunakan fungsi `fwrite` yang terdeklarasi sebagai berikut:
 ```c
 /* Tipe data size_t merupakan type alias dari satu bilangan bulat unsigned */
 size_t fwrite(const void *src, size_t blocksize, size_t n, FILE *f);
@@ -32,8 +32,8 @@ scanf("%d", &angkatan);
 printf("Menyimpan ke biodata.bin ...\n");
 f = fopen("biodata.bin", "wb");
 if (f != NULL) {
-    fwrite(nama, sizeof(char), 100, f);
-    fwrite(prodi, sizeof(char), 50, f);
+    fwrite(nama, 100 * sizeof(char), 1, f);
+    fwrite(prodi, 50 * sizeof(char), 1, f);
     fwrite(&angkatan, sizeof(int), 1, f);
     fclose(f);
     printf("Sukses!\n");
@@ -82,8 +82,8 @@ if (f != NULL) {
     char prodi[50];
     int angkatan;
 
-    fread(nama, sizeof(char), 100, f);
-    fread(prodi, sizeof(char), 50, f);
+    fread(nama, 100 * sizeof(char), 1, f);
+    fread(prodi, 50 * sizeof(char), 1, f);
     fread(&angkatan, sizeof(int), 1, f);
     fclose(f);
 
