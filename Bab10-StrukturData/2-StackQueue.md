@@ -82,7 +82,7 @@ struct WeaponNode *weapons_head(struct WeaponList *queue) {
     /* misalkan urutan pertama antrean adalah elemen pertama linked list */
     /* dan urutan terakhir antrean adalah elemen terakhir linked list */
 
-    /* hapus dari posisi pertama linked list */
+    /* akses posisi pertama linked list */
     return queue->first;
 }
 ```

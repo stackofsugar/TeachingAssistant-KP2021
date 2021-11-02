@@ -54,7 +54,7 @@ Dalam materi ini, kita akan membahas untuk kasus **Doubly Linked List** (tiap no
 
 ### Definisi
 
-Definisikan tipe elemen koleksinya sebagai **node** berupa *self-referential structure* yang berisi data informasi tentang `struct Weapon` terlebih dahulu, misal untuk kasus koleksi dari `struct Weapon`:
+Definisikan tipe elemen koleksinya sebagai **node** berupa *self-referential structure* yang berisi data informasi tentang elemennya terlebih dahulu, misal untuk kasus koleksi dari `struct Weapon`:
 ```c
 struct Weapon {
     char name[50];
