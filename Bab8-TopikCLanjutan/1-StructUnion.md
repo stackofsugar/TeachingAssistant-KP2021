@@ -515,7 +515,7 @@ int main() {
     /* Tidak menampilkan nilai 32, melainkan representasi bilangan floating point dari 64.0 dalam bentuk integer (FYI bilangan floating point disimpan dalam komputer dalam bentuk unsigned integer) */
     printf("num.iVal = %d\n", num.iVal);
 
-    /* Menampilkan nilai 64.0 karena operasi assignment terakhir kali adalah `num.dblVal = 64.0;` */
+    /* Menampilkan nilai 64.0 karena operasi assignment terakhir kali adalah `num.fVal = 64.0f;` */
     printf("num.fVal = %f\n", num.fVal);
 
     return 0;
