@@ -147,6 +147,9 @@ void insertWeapon(struct WeaponList *list, struct WeaponNode *after, const struc
         if (list->last == NULL) {
             /* atur pointer elemen terakhir ke node yang baru saja ditambahkan */
             list->last = newNode;
+        } else {
+            /* jika sebelumnya linked list masih terisi, selaraskan rantai linked list */
+            newNode->next->prev = newNode;
         }
     }
 }
