@@ -109,7 +109,7 @@ void insertWeapon(struct WeaponList *list, struct WeaponNode *after, const struc
     if (after != NULL) {
         /* tambahkan node baru setelah `after` */
 
-        struct WeaponNode *newNode;
+        struct WeaponNode *newNode, *oldNext;
 
         /* ciptakan elemen baru */
         newNode = (struct WeaponNode *)malloc(sizeof(struct WeaponNode));
@@ -125,6 +125,9 @@ void insertWeapon(struct WeaponList *list, struct WeaponNode *after, const struc
         if (newNode->next == NULL) {
             /* selaraskan juga pointer elemen terakhir */
             list->last = newNode;
+        } else {
+            /* jika penambahan terjadi di tengah, selaraskan rantai linked listnya */
+            newNode->next->prev = newNode;
         }
     } else {
         /* tambahkan node baru pada awal linked list */
