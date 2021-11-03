@@ -37,6 +37,7 @@
 - Bab 10 - Struktur Data Dasar
     1. [Array dan Linked List](Bab10-StrukturData/1-ArrayLinkedList.md)
     2. [Stack dan Queue](Bab10-StrukturData/2-StackQueue.md)
+    3. [Tree](Bab10-StrukturData/3-Tree.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)
