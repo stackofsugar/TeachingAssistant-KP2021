@@ -98,7 +98,7 @@ weapons.first = NULL;
 weapons.last = NULL;
 ```
 
-## Menambahkan Elemen
+### Menambahkan Elemen
 
 Dalam menambahkan elemen ke dalam linked list, untuk kasus `struct Weapon`, gunakan code berikut:
 ```c
@@ -155,7 +155,7 @@ void insertWeapon(struct WeaponList *list, struct WeaponNode *after, const struc
 }
 ```
 
-## Menghapus Elemen
+### Menghapus Elemen
 
 Dalam menghapus elemen dari linked list, untuk kasus `struct Weapon`, gunakan code berikut:
 ```c
@@ -232,7 +232,7 @@ void deleteWeapon(struct WeaponList *list, struct WeaponNode *node) {
 }
 ```
 
-## Iterasi Seluruh Node Linked List
+### Iterasi Seluruh Node Linked List
 
 Untuk kasus `struct Weapon`, gunakan code berikut untuk melakukan iterasi
 ```c
@@ -266,7 +266,7 @@ while (iterator != NULL) {
 }
 ```
 
-## Contoh Penggunaan
+### Contoh Penggunaan
 
 ```c
 void printWeapons(struct WeaponList *list) {
@@ -383,7 +383,7 @@ Menghapus elemen pertama...
 */
 ```
 
-# Kelebihan dan Kekurangan Masing-Masing
+## Kelebihan dan Kekurangan Masing-Masing
 
 Array memiliki kelebihan yaitu dapat mengakses suatu elemen posisi tertentu dengan cepat dan mudah hanya berdasarkan indeks angka. Namun kekurangannya adalah proses penambahan/penghapusan elemen sulit dilakukan secara efektif. Cocok digunakan apabila ukuran koleksi tidak berubah-ubah dan dapat diidentifikasi dengan suatu indeks angka (dalam kata lain, pengaksesan suatu elemen berdasarkan indeks juga dipertimbangkan)
 
