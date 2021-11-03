@@ -52,7 +52,7 @@ Queue dapat digambarkan sebagai struktur data yang dapat mensimulasikan **antrea
 
 Menambahkan elemen ke urutan akhir antrean. Untuk kasus `struct Weapon`, dapat menggunakan code berikut:
 ```c
-void weapons_enqueue(struct WepaonList *queue, const struct Weapon *data) {
+void weapons_enqueue(struct WeaponList *queue, const struct Weapon *data) {
     /* misalkan urutan pertama antrean adalah elemen pertama linked list */
     /* dan urutan terakhir antrean adalah elemen terakhir linked list */
 
@@ -87,4 +87,4 @@ struct WeaponNode *weapons_head(struct WeaponList *queue) {
 }
 ```
 
-[Tree >>](../3-Tree.md)
+[Tree >>](/3-Tree.md)
