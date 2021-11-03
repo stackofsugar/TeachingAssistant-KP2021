@@ -87,4 +87,4 @@ struct WeaponNode *weapons_head(struct WeaponList *queue) {
 }
 ```
 
-[Tree >>](/3-Tree.md)
+[Tree >>](3-Tree.md)
