@@ -42,6 +42,10 @@
     1. [Pengantar](Bab11-Preprocessor/1-Pengantar.md)
     2. [Symbolic Constant dan Macro](Bab11-Preprocessor/2-SymbolicConstantDanMacro.md)
     3. [Conditional Compilation](Bab11-Preprocessor/3-ConditionalCompilation.md)
+- Bab 12 - Materi Tambahan
+    1. [I/O Redirection](#)
+    2. [Variable Length Argument](Bab12-MateriTambahan/2-VariableLengthArg.md)
+    3. [C Command Line Argument](Bab12-MateriTambahan/3-CCommandLineArg.md)
 - AUX - Solusi Problem Solving 1
     1. [Jarak Manhattan](EditorialPS1/1-JarakManhattan.md)
     2. [Pola](EditorialPS1/2-Pola.md)
