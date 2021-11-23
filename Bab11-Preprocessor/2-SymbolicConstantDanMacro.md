@@ -1,6 +1,6 @@
+[<< Materi Sebelumnya (Pengantar Preprocessor)](1-Pengantar.md)
 
-
-# Symbolic Constant dan Macro 
+# 11.2 - Symbolic Constant dan Macro 
 Symbolic Constant dan Macro merupakan salah dua penggunaan dari preprocessor **#define**. Pada dasarnya, keduanya akan menggantikan/mensubstitusi _identifier_ dengan sebuah pengganti atau _replacement_
 
 ## Symbolic Constant
@@ -29,6 +29,21 @@ int main(void){
     //code
     
     DATA_TYPE varArray[5];
+    
+    //code    
+}
+```
+Yang dibaca oleh compiler:
+```c
+void foo1(int x);
+int foo2();
+
+int main(void){
+    int var;
+    
+    //code
+    
+    int varArray[5];
     
     //code    
 }
@@ -66,6 +81,14 @@ int main(void){
     printf("%d\n", DAMAGE(6000, defense));
 }
 ```
+Yang compiler baca:
+```c
+int main(void){
+    int defense = 20;
+    printf("Damage yang dihasilkan: ");
+    printf("%d\n", 4800));
+}
+```
 Pada kasus di atas, macro digunakan untuk menghitung nilai DAMAGE. 
 Argumen untuk macro tersebut dapat diisi dengan nilai langsung (6000) ataupun nilai dari variabel (defense yang bernilai 20)
 Macro DAMAGE akan digantikan dengan nilai 4800
@@ -73,7 +96,7 @@ Macro DAMAGE akan digantikan dengan nilai 4800
 #### Note
 Tanda kurung pada argumen di bagian replacement penting digunakan untuk menghindari kesalahan pembacaan yang tidak diinginkan. 
 
-Contoh: apabila ditulis menjadi ``atk*(100 - def)/100``, apabila diisikan DAMAGE(5500 + 500, 20) maka perhitungan akan menjadi
+Contoh: apabila macro tadi diubah menjadi ``#define DAMAGE(atk, def) atk*(100 - def)/100``, apabila diisikan DAMAGE(5500 + 500, 20) maka perhitungan akan menjadi
 ``5500 + 500*(100 - 20)/100`` yang menghasilkan ``5900``, sebuah kesalahan perhitungan
 
 ## Operator # dan \##
@@ -84,17 +107,53 @@ Dengan memberikan # pada argumen di komponen replacement, maka argumen tersebut 
 
 Contoh:
 ```c
-#define PRINT_VALUE(s, v) printf(#s, v);
+#include <stdio.h>
+#define PRINT_VALUE(s, v) printf(#s, v)
+
+int main(void){
+        PRINT_VALUE(%d, 50);
+}
 ```
-Jika dilakukan ``PRINT_VALUE(%d, 50)`` maka akan digantikan menjadi ``printf("%d", 50);``
+Yang compiler baca:
+```c
+int main(void){
+        printf("%d", 50);
+}
+```
 
 ### Operator \## atau Concat
-Operator ini merupakan operator binary. Dengan memberikan ## di antara dua argumen, maka argumen tersebut akan digabung dan menjadi string  
+Operator ini merupakan operator binary. Dengan memberikan ## di antara dua argumen, maka argumen tersebut akan digabung menjadi satu argumen 
 Contoh:
 ```c
-#define CONC(a, b) a ## b;
+#include <stdio.h>
+#define CONC(a, b) a ## b
+#define TO_STRING(x) #x
+#define CONC_AND_STRING(a, b) TO_STRING(a ## b)
+
+int main(void){
+        int CONC(man,tap) = 10;
+        printf( CONC_AND_STRING(Hello, World) );
+        puts("");
+        printf( TO_STRING( CONC(Hello, World) ));
+}
 ```
-Jika dilakukan ``int CONC(man,tap) = 10`` maka akan digantikan menjadi ``int mantap = 10``
+Yang dibaca compiler:
+```c
+int main(void){
+        int mantap = 10;
+        printf( "HelloWorld" );
+        puts("");
+        printf( "CONC(Hello, World)" );
+}
+
+/* OUTPUT
+HelloWorld        
+CONC(Hello, World)
+*/
+```
+#### Note
+Dapat dilihat bahwa penggunaan macro **tidak** dapat dinested (``TO_STRING( CONC(Hello, World)``) 
+_tetapi_ komponen replacement dari macro dapat memuat macro lain (``#define CONC_AND_STRING(a, b) TO_STRING(a ## b)``)
 
 ## Operator \\
 Operator ini digunakan apabila definisi statement preprocessor lebih dari satu baris
