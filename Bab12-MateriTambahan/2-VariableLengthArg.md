@@ -136,6 +136,8 @@ void print(const char *format, ...) {
             i = i + 1;
         }
     }
+    
+    va_end(ap);
 }
 
 int main() {
