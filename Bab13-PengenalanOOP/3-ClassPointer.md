@@ -136,12 +136,12 @@ void Weapon::Fire(Player *target) {
     printf("%s: ", this->name);
     if (this->owner != NULL) {
         if (this->rounds > 0) {
+            this->rounds = this->rounds - 1;
             if (target != NULL) {
-                this->rounds = this->rounds - 1;
                 target->health = target->health - this->damage;
                 printf("BANG! (dealt %d%% damage from %s to %s), %d rounds left", this->damage, this->owner->name, target->name, this->rounds);
             } else {
-                printf("miss!");
+                printf("miss!, %d rounds left", this->rounds);
             }
         } else {
             printf("unable to fire because clip is empty");
