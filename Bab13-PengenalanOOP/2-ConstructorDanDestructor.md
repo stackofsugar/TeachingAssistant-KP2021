@@ -1,4 +1,6 @@
-# Constructor dan Destructor
+[<< Konsep Class dan Object](1-KonsepClassObject.md)
+
+# 13.2 - Constructor dan Destructor
 
 Constructor dan Destructor adalah sebuah fungsi _spesial_ pada konsep OOP. 
 Keduanya mirip seperti fungsi pada umumnya tetapi fungsi ini **TIDAK** memiliki return type
@@ -135,3 +137,5 @@ AKHIR DARI SCOPE MAIN
 =====> objek dari kelas Foo dengan id 100 dihancurkan
 */
 ```
+
+[Class Pointer >>](3-ClassPointer.md)

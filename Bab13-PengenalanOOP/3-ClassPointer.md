@@ -1,3 +1,5 @@
+[<< Constructor dan Destructor](2-ConstructorDanDestructor.md)
+
 # 13.3 - Class Pointer
 
 Dalam praktiknya, apalagi dalam bahasa keluarga C/C++, kita sering menggunakan pointer untuk mereferensikan ke suatu obyek tertentu, sejalan dengan konsep pointer di mana hal tersebut memungkinkan kita untuk memanipulasi obyek tersebut di scope yang berbeda, serta mencegah banyak tindakan penyalinan suatu obyek dari variabel ke variabel lain.
@@ -11,7 +13,7 @@ Weapon *deagle;
 deagle = new Weapon("Desert Eagle", 750, 35, 7);
 ```
 
-Kemudian obyek-obyek yang telah dibuat menggunakan kata kunci **new**, harus dibebaskan dengan kata kunci **delete**, sama halnya fungsi **free** pada C library, sebagai contoh:
+Kemudian obyek-obyek yang telah dibuat menggunakan kata kunci **new**, harus dihapus/dibebaskan dengan kata kunci **delete**, sama halnya fungsi **free** pada C library, sebagai contoh:
 ```cpp
 Weapon *deagle;
 
@@ -21,6 +23,7 @@ deagle = new Weapon("Desert Eagle", 750, 35, 7);
 
 delete deagle;
 ```
+Ketika suatu obyek dihapus, maka destructor akan dipanggil terlebih dahulu sebelum menghapus
 
 ## Contoh Penerapan
 
@@ -301,3 +304,5 @@ Weapon destroyed: M4A1
 Weapon destroyed: AK-47
 */
 ```
+
+[Silabus >>](../silabus.md)

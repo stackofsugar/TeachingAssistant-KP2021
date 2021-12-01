@@ -1,3 +1,5 @@
+[<< Silabus](../silabus.md)
+
 # 13.1 - Konsep Class dan Object
 
 ## Pengantar
@@ -176,3 +178,5 @@ Desert Eagle: BANG! (40 damage dealt), 6 rounds left
 Dapat dilihat bahwa fitur utama dari class adalah memungkinkan berbagai **method** (function untuk bekerja dengan obyek terkait) untuk didefinisikan dalam class tersebut sehingga dapat digunakan oleh pemrogram layaknya pemanggilan fungsi seperti biasa sehingga kode menjadi lebih rapi dan terstruktur.
 
 Dapat dilihat juga bahwa terdapat kata kunci **this** yang mana merupakan variabel yang diciptakan oleh compiler yang merujuk kepada obyek tempat pemanggilan fungsi tersebut terjadi. Sehingga, kita dapat memanipulasi keadaan obyek tersebut menggunakan kata kunci **this**.
+
+[Constructor dan Destructor >>](2-ConstructorDanDestructor.md)
