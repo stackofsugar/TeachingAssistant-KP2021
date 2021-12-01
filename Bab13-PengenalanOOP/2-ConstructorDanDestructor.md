@@ -23,7 +23,7 @@ NamaKelas( /*parameters*/ ){
 Contoh penggunaan berikut akan meng-efesiensi-kan inisialisasi data member dari ``class Weapon``
 
 Pada source code sebelumnya, setiap data member diberikan nilai satu per satu
-```c
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -48,7 +48,7 @@ int main() {
 ```
 
 Pada contoh berikut menggunakan constructor untuk menginisialisasi setiap data member saat meng-instantiate objek
-```c
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -85,7 +85,7 @@ yang akan dihancurkan otomatis ketika keluar dari scopenya
 ### Syntax
 
 Destructor memiliki syntax yang sama seperti Constructor tetapi nama fungsi diawali dengan _tilde_(~) dan tidak menerima parameter
-```c 
+```cpp
 ~NamaKelas(){
   // code
 }
@@ -94,7 +94,7 @@ Destructor memiliki syntax yang sama seperti Constructor tetapi nama fungsi diaw
 ### Penggunaan
 
 Pada penggunaan berikut constructor mengirimkan pesan ketika objek dibuat dan destructor mengirimkan pesan ketika objek dihancurkan. Hal ini berguna untuk _debugging_
-```c
+```cpp
 #include <stdio.h>
 
 class Foo{
