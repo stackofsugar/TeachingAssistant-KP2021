@@ -2,7 +2,7 @@
 
 # 10.1 - Array dan Linked List
 
-Koleksi (kumpulan obyek atau elemen) dalam program dapat disimpan menggunakan struktur data **array** (yang biasa kita pakai sebelumnya) dan **linked list**. Kita akan membahas tentang perbandingan array dan linked list pada materi ini.
+Koleksi  (kumpulan obyek atau elemen) dalam program dapat disimpan menggunakan struktur data **array** (yang biasa kita pakai sebelumnya) dan **linked list**. Kita akan membahas tentang perbandingan array dan linked list pada materi ini.
 
 ## Array
 
